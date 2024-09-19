@@ -1,0 +1,42 @@
+﻿<Window x:Class="Bolnica.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bolnica"
+        mc:Ignorable="d"
+        Title="MainMenu" Height="1080" Width="1920" WindowState="Maximized">
+    <Grid Background="#FF8A8A8A" Initialized="Post">
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="Личный кабинет" VerticalAlignment="Top" FontSize="80" Foreground="White"/>
+        <TextBlock x:Name="Name_TXB" HorizontalAlignment="Center" Margin="0,121,0,0" Text="ВРАЧ" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="45" Initialized="Name_TXB_Initialized" Foreground="White"/>
+        <TextBlock x:Name="No_TXB" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Должность:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Initialized="Name_TXB_Initialized" Foreground="White"/>
+        <TextBlock x:Name="Post_TXB" HorizontalAlignment="Left" Margin="174,10,0,0" Text="Должность" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" Initialized="Name_TXB_Initialized" Foreground="White"/>
+        <Button x:Name="PriniatPacienta" Content="Принять поциента" HorizontalAlignment="Left" VerticalAlignment="Center" Height="122" Width="516" FontSize="50" Margin="314,0,0,0"  Click="_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="2"
+                        CornerRadius="20">
+
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="ZapicatPac" Content="Записать поциента" HorizontalAlignment="Left" VerticalAlignment="Center" Height="122" Width="516" FontSize="50" Margin="1021,0,0,0" Click="ZapicPacienta_Button">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="2"
+                        CornerRadius="20">
+
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Window>

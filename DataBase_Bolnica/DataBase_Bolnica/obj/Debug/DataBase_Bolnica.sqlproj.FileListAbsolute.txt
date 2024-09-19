@@ -1,0 +1,6 @@
+D:\DataBase_Bolnica\DataBase_Bolnica\bin\Debug\DataBase_Bolnica.dacpac
+D:\DataBase_Bolnica\DataBase_Bolnica\bin\Debug\DataBase_Bolnica.dll
+D:\DataBase_Bolnica\DataBase_Bolnica\bin\Debug\DataBase_Bolnica.pdb
+D:\DataBase_Bolnica\DataBase_Bolnica\obj\Debug\DataBase_Bolnica.sqlproj.AssemblyReference.cache
+D:\DataBase_Bolnica\DataBase_Bolnica\obj\Debug\DataBase_Bolnica.dll
+D:\DataBase_Bolnica\DataBase_Bolnica\obj\Debug\DataBase_Bolnica.pdb
